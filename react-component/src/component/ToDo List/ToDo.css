@@ -1,0 +1,187 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fb;
+    /* Lighter background color */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Wrapper for centering the container */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#headingDiv{
+    margin-bottom: -20px;
+}
+
+/* Main container styles */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    /* Slightly larger shadow */
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Title Styles */
+.container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #4e6cef;
+    margin-bottom: -10px;
+}
+
+/* Date and Time section styles */
+.dateTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #777;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* Input section styles */
+.inputSection {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input field styles */
+.inputSection input {
+    flex: 1;
+    padding: 14px 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #fafafa;
+}
+
+.inputSection input:focus {
+    border-color: #4e6cef;
+    background-color: #fff;
+}
+
+/* Button styles */
+.inputSection button {
+    padding: 14px 20px;
+    background: linear-gradient(to right, #5c8df6, #4e6cef);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(92, 141, 246, 0.3);
+}
+
+.inputSection button:hover {
+    background: linear-gradient(to right, #4e6cef, #3f5fd4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(92, 141, 246, 0.4);
+}
+
+.inputSection button:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 10px rgba(92, 141, 246, 0.2);
+}
+
+/* Task list styles */
+.taskList {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.item button {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item button:hover {
+    background-color: #ff3838;
+}
+
+.item button:active {
+    transform: scale(0.95);
+}
+
+.item span.done {
+    font-style: italic;
+    color: #999;
+    text-decoration: line-through;
+}
+
+
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+
+.clearAll {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.clearAll:hover {
+    background-color: #ff3838;
+}
+
+.clearAll:active {
+    transform: scale(0.97);
+}
