@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "description": "A group of young friends witness supernatural forces and secret government exploits.",
+      "ageLimit": 16,
+      "imageSrc": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWPh6PeuTgtO_Zzmap6eXJrwBro7Rpz-VOBSqo_7j1-CW9rmEhD0fGArmbXSoWphgcr4ml",
+      "genre": "Sci-Fi",
+      "watchUrl": "https://www.netflix.com/title/80057281"
+    },
+    {
+      "id": 2,
+      "title": "Money Heist",
+      "description": "A criminal mastermind plans the biggest heist in recorded history.",
+      "ageLimit": 18,
+      "imageSrc": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTl6sB37QlR5nczz7EdqIGnSJImVW559wDdC-nh8wRZAMe2IRdmfL-J6ZGJhDFR-x1sxjml",
+      "genre": "Crime",
+      "watchUrl": "https://www.netflix.com/title/80192098"
+    },
+    {
+      "id": 3,
+      "title": "The Crown",
+      "description": "Chronicles the life of Queen Elizabeth II from the 1940s to modern times.",
+      "ageLimit": 13,
+      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzpy-NQOVd2iA7FUG2bx8z-qF23EUOtE2xA6Q4lBb4klcBJ2y7dz0WEKyiP6QEfYosy9EV",
+      "genre": "Historical Drama",
+      "watchUrl": "https://www.netflix.com/title/80025678"
+    },
+    {
+      "id": 4,
+      "title": "Narcos",
+      "description": "A chronicled look at the criminal exploits of drug kingpin Pablo Escobar.",
+      "ageLimit": 18,
+      "imageSrc": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQGIXHa1dW0obEO9ydIraB9K9LNvlP5uQjAIWApEnoz91i3AZv8xtJmGBuaO7BV8-4MCTUjmw",
+      "genre": "Crime Drama",
+      "watchUrl": "https://www.netflix.com/title/80025172"
+    },
+    {
+      "id": 5,
+      "title": "The Witcher",
+      "description": "A mutated monster-hunter struggles to find his place in a world where people are often more wicked than beasts.",
+      "ageLimit": 17,
+      "imageSrc": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrpQa4kPsu6vyXAGfOOHSuscIGwdQuxyOs0Lp-EndlqkhFdcxNPg0kt-lws9e49GAqx2wxRg",
+      "genre": "Fantasy",
+      "watchUrl": "https://www.netflix.com/title/80189685"
+    }
+  ]
+  
